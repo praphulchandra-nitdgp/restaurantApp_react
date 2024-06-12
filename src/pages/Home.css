@@ -1,0 +1,25 @@
+.custom-carousel {
+    height: calc(100vh - 80px);
+}
+  
+.custom-carousel .carousel,
+.custom-carousel .carousel-inner,
+.custom-carousel .carousel-item,
+.custom-carousel .carousel-item img {
+    height: 100%;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px 250px;
+    padding: 10px 20px;
+}
+.about-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(211, 220, 176); /* change this color*/
+}
